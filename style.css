@@ -1,0 +1,418 @@
+img 
+{
+    border: 5px solid;
+    border-color: indigo;
+    height:300px ;
+    width: 300px;
+    margin-left: 460px;
+    margin-top: 90px;
+}
+
+#line1
+{
+    position: relative;
+    size: 20px;
+    border: none;
+    border-color: black;
+}
+
+html{
+    background-image: url("new.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#f1
+{
+    height: 400px;
+    width:400px;
+}
+
+#ide
+{
+    background-color:#b9bbdf;
+    border: 20px;
+    margin-top: 0;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    height: 200px;
+    width: 320px;
+    border: 5px solid;
+    border-color:navy;
+    display: table-cell;   
+    border-radius: 30px;
+}
+#idf
+{
+    background-color:lavender;
+    border: 20px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 1177px;
+    left:358px;
+    margin: 0;
+    padding: 20px;
+    height: 183px;
+    width: 400px;
+    border: 5px solid;
+    border-color:navy;
+    display: table-cell;
+    border-radius: 30px;
+}
+#idg
+{
+    background-color: #b9bbdf;
+    border: 20px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 1402px;
+    margin: 0;
+    padding: 20px;
+    height: 183px;
+    width: 300px;
+    border: 5px solid;
+    display: table-cell;
+    border-radius: 30px;
+    border-color:navy;
+}
+
+#idh
+{
+    background-color: lavender;
+    border: 20px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 1402px;
+    left:358px;
+    margin: 0;
+    padding: 20px;
+    height: 183px;
+    width: 400px;
+    border: 5px solid black;
+    display: table-cell;
+    border-color:navy;
+    border-radius: 30px;
+}
+
+h1
+{
+    text-align: center;
+    color:darkblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#w
+{
+    margin-top: 0em;
+    text-align: center;    
+    color:darkred;
+}
+#form
+{
+    
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    left:200px;
+    padding: 20px;
+    height: 300px;
+    width: 700px;
+    border: 5px solid black;
+    top: 1800px;
+}
+#fld
+{
+    border-color: black;
+}
+
+#head
+{
+    color:black;
+    text-shadow: 20px;
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+
+#btn
+{
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    left:480px;
+    padding: 5px 20px;
+    height: 230px;
+ 
+}
+
+#r:hover
+{
+    color: forestgreen;
+}
+#r
+{
+    color:crimson;
+    background-color:blanchedalmond;
+    height: 30px;
+    width:120px;
+    display: inline;
+}
+
+#c:hover
+{
+    color:forestgreen
+}
+#btn1
+{
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    left:630px;
+    padding: 5px 20px;
+    height: 250px;
+}
+#c
+{
+    color: crimson;
+    background-color: blanchedalmond;
+    height: 30px;
+    width:120px;
+}
+
+#line1
+{
+    border: 10em;
+}
+
+#id3
+{
+    top:1000px;
+}
+
+#id3 #m1
+{
+    text-transform: capitalize;
+    text-decoration: palevioletred;
+}
+
+#skill
+{
+    text-decoration: underline;
+}
+
+#ff
+{
+    color: #f25d9c;
+    text-decoration:underline;
+}
+#cc
+{
+    color: #a40a3c;
+}
+#hh
+{
+    color: #f25d9c;
+    text-decoration: underline;
+}
+#jj
+{
+    color: #a40a3c;
+}
+
+#g1
+{
+    color: #0d7377;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#g2
+{
+    color:#00adb5;
+    font-weight: bold;
+}
+
+#g3
+{
+    color:#29a19c;
+    font-weight: bold;
+}
+
+#g4
+{
+    color: #4ecca3;
+    font-weight: bold;
+
+}
+
+
+
+#j1
+{
+    color: #0d7377;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#j2
+{
+    color:#00adb5;
+    font-weight: bold;
+}
+
+#j3
+{
+    color:#29a19c;
+    font-weight: bold;
+}
+
+#j4
+{
+    color: #4ecca3;
+    font-weight: bold;
+
+}
+@media only screen and (max-width:400px)
+{
+    img 
+    {
+        border: 5px solid;
+        border-color: indigo;
+        height:300px ;
+        width: 300px;
+        margin-left: 230px;
+        margin-top: 90px;
+    }
+    
+   #d
+   {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 350px;
+    color:darkblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#w
+{
+    text-align: center;
+    margin-left: 350px;
+    font-size: 15px;     
+    color:darkred;   
+}
+#btn
+{
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    left:250px;
+    padding: 5px 20px;
+    height: 230px;
+ 
+}
+#btn1
+{
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    left:390px;
+    padding: 5px 20px;
+    height: 250px;
+}
+
+#ide
+{
+    background-color:#b9bbdf;
+    border: 20px;
+    margin-top: 0;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    height: 200px;
+    width: 320px;
+    border: 5px solid;
+    border-color:navy;
+    display: table-cell;   
+    border-radius: 30px;
+}
+#idf
+{
+    background-color:lavender;
+    border: 20px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 1294px;
+    left:358px;
+    margin: 0;
+    padding: 20px;
+    height: 183px;
+    width: 400px;
+    border: 5px solid;
+    border-color:navy;
+    display: table-cell;
+    border-radius: 30px;
+}
+#idg
+{
+    background-color: #b9bbdf;
+    border: 20px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 1525px;
+    margin: 0;
+    padding: 20px;
+    height: 183px;
+    width: 300px;
+    border: 5px solid;
+    display: table-cell;
+    border-radius: 30px;
+    border-color:navy;
+}
+
+#idh
+{
+    background-color: lavender;
+    border: 20px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 1525px;
+    left:358px;
+    margin: 0;
+    padding: 20px;
+    height: 183px;
+    width: 400px;
+    border: 5px solid black;
+    display: table-cell;
+    border-color:navy;
+    border-radius: 30px;
+}
+#form
+{
+    
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    left:90px;
+    padding: 20px;
+    height: 200px;
+    width: 600px;
+    border: 0px solid black;
+    top: 1800px;
+}
+#fld
+{
+    border-color: none;
+}
+
+
+
+}
+    

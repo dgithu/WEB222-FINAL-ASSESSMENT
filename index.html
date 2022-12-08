@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/9eb5a353df.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>  
+    <img src="./IMAGE.jpeg" alt="The image cannot be opened">
+    <h1 id="d">DEVANGI PATEL</h1>
+    <h4 id="w">Web Developer 2022</h6>
+    <a href="./DEVANGI NEW RESUME.docx" download="RESUME" id="btn"><button id="r"><i class="fa-solid fa-download"></i>&nbsp;RESUME</button></a>
+    <a href="#formid" id="btn1"><button id="c"><i class="fa-solid fa-address-book"></i>&nbsp;CONTACT ME</button></a> 
+    <br><br>
+    <hr id="hr1">
+    <div id="id3"></div>
+    <div id="id4"></div>
+    <div id="id5"></div>
+    <script src="./data.js"></script>
+    <h2 id="skill">SKILLS</h2>
+    <section>
+        <ul>
+            <li>C Language</li>
+            <li>Python Language</li>
+            <li>Cloud Computing</li>
+            <li>Web development and Analyst</li>
+            <li>Application Developing skills</li>
+        </ul>
+    </section>
+    <hr>
+     <h2 id="head">EDUCATION</h2>
+    <div>
+    <div id="ide">
+        <br><br>
+        <h4 id="ff">2022-2024</h4>
+        <h2 id="cc">Computer Programming and Analysis</h2>
+    </div>
+    <div id="idf">
+        <h4 id="g1">Computer Programming and Analysis</h4>
+        <h5 id="g2">Seneca College of Applied Science and Technology</h5>
+        <p id="g3">Under Supervision of Eva Qader and Kristy Keogh</p>
+        <p id="g4">I joined this school of Science in 2022. I enjoy studying over here, because of some professors</p>
+    </div>
+    <div id="idg">
+        <br><br>
+        <h4 id="hh">2019-2021</h4>
+        <h2 id="jj">Higher Secondary (HSC)</h2>
+    </div>
+    <div id="idh">
+         <h4 id="j1">Higher Secondary</h4>
+         <h5 id="j2">Bright School</h5>
+         <p id="j3">Under Supervision of Dr. Amit Shah</p>
+         <p id="j4">I studied in this school for approximately 12 years. I suffered my life's best 12 years over there</p>
+    </div>
+    </div>
+    <section id="form">
+    <form method="post" action="https://httpbin.org/post " id="formid" onsubmit="return validation()">
+        <fieldset id="fld">
+            <legend>Contact Form</legend>
+            <br>
+          <input type="text" placeholder="Name:" required><br>
+          <input type="text" placeholder="Email Address:" required><br>
+          <input type="text" placeholder="Street Address:" required><br>
+          <input type="text" placeholder="City:" required><br>
+          <input list="provinces" id="pid" placeholder="Province:" required/><br>
+          <datalist id="provinces">
+            <option value="Ontario">Ontario </option>
+            <option value="Manitoba">Manitoba </option>
+            <option value="Alberta">Alberta</option>
+            <option value="British Columbia">British Columbia</option>
+            <option value="Nova Scotia">Nova Scotia</option>
+            <option value="Saskatchewan">Saskatchewan</option>
+            <option value="New Brunswick">New Brunswick</option>
+            <option value="Quebec">Quebec</option>
+            <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+            <option value="Prince Edward Island">Prince Edward Island</option>
+        </datalist>
+         <input type="text" placeholder="Postal Code:" id="pst" required><br>
+         <input type="text" placeholder="Message:" maxlength="120" required><br>
+         <input type="tel" placeholder="Phone Number:" required> <br><br> 
+         <input type="radio" name="abc" onclick="hidden()">Job offer
+         <input type="radio" name="abc" onclick="hidden()" >School
+         <input type="radio" name="abc" value="other" id="rdio" onclick="radio()">Other <br>
+         <span id="rdiolink"></span>
+         <br>
+
+         <input type="submit"> <input type="reset">
+        </fieldset>
+    </form>
+    </section>
+</body>
+</html>
